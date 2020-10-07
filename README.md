@@ -1,5 +1,6 @@
-The Modern stronge structure of your next Laravel project, 
-this is Modern laravel starter Project , with  JetStream Livewire + Blade scaffolding, and sanctum authentication system , TailWindCSS Frontend Freamwork
+The Modern stronge structure of your next Laravel project. built  with Laravel jetstream and Livewire, fortify , built with Sanctum authentication system
+that support (api, web, spa apps) ,Frontend with TailWindCSS Freamwork .. many Features (email verification , reset password , spatie permeation system , 
+strong routes structure, two factor authentication, Notification ...etc).. and more Features will Come ..
 
 # Modern Laravel Starter
 
@@ -45,7 +46,7 @@ these Features we added them for you ,, because new laravel version change many 
 like models namespace and default routes name space, so we make example for every 
 thing to give you starting point to go ..
 
-- Routes are Structured perfectly, and seperated to multiple files according to namespace and prefix,all routes in api or web
+- Routes are Structured perfectly, and seperated to multiple files according to namespace and prefix, all routes in api or web
  arranged perfectly to accommodate large projects, Also Controllers and views files
 
 - Examples for Models and Controllers.
@@ -80,11 +81,7 @@ DB_PASSWORD=Yourr DB Password
 ```
 
 the follwing section for SMTP configuration, it is important
-to work with email verification and reset password, we enabled it be 
-default, if you don't need you can disable them by remove  implements MustVerifyEmail in user Model 
-and comment the follwing lines in features array in config/fortify file:
-- Features::emailVerification(),
-- Features::resetPasswords(),
+to work with email verification and reset password.
 
 ```
 MAIL_MAILER=smtp
@@ -98,7 +95,12 @@ MAIL_FROM_NAME="${APP_NAME}"
 MASTER_EMAIL_TITLE="Modern Laravel Starter"
 
 ```
-you can change it according your smtp provider (mailgun , mailtrip, ...etc)
+you can change it according your smtp provider (mailgun , mailtrip, ...etc).
+
+these Features we enabled it be default, if you don't need you can disable them by remove  implements MustVerifyEmail in user Model 
+and comment the follwing lines in features array in config/fortify file:
+	- Features::emailVerification(),
+	- Features::resetPasswords(),
 
 
 #### 3 -  Edit AppServiceProvider it this is first  time istall project
@@ -170,7 +172,7 @@ if you did not have idea about NodeJS and NPM please take idea before complete [
 
 ## Test Email
  
-to test email sending and Notifications with custom markdown, make sure you made the seeders and configured smtp settings then do the follwing:
+To test email sending and Notifications with custom markdown, make sure you made the seeders and configured smtp settings then do the follwing:
 
 - login to phpMyadmin -> project db -> invoices table .
 - change first invoice user_id to 1 .
@@ -185,7 +187,7 @@ to test email sending and Notifications with custom markdown, make sure you made
 
 - Inertia.js + Vue Version will Availible Soon.
 
-## Versions
+## Screenshots
 
 these some screenshotes 
 
@@ -207,7 +209,7 @@ these some screenshotes
 
 - PHP Freamwork Laravel [https://laravel.com](https://laravel.com/docs/8.x/) .
 
-- Javascript Freamwork VusJS [https://vuejs.org](https://vuejs.org/) .
+- Laravel [jetstream](https://github.com/laravel/jetstream) .
 
 - CSS framework TailwindCSS [https://tailwindcss.com](https://tailwindcss.com/) .
 

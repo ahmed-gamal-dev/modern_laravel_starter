@@ -7,7 +7,7 @@
 		"laravel startkit",
 		"laravel 8",
 		"laravel v8",
-		"email verivication ",
+		"email verivication",
 		"email Notifications",
 		"laravel Notifications",
 		"laravel starter project",
@@ -24,7 +24,11 @@
 		"laravel auth system",
 		"new laravel",
 		"laravel template",
-		"laravel v8"
+		"laravel v8",
+		"laravel admin dashboard",
+		"laravel admin panel",
+		"laravel best paractice",
+		"laravel routes structure"
     ],
     "license": "MIT",
     "require": {
