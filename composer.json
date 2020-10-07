@@ -28,7 +28,10 @@
 		"laravel admin dashboard",
 		"laravel admin panel",
 		"laravel best paractice",
-		"laravel routes structure"
+		"laravel routes structure",
+		"laravel api",
+		"laravel sanctum",
+		"laravel spa"
     ],
     "license": "MIT",
     "require": {
